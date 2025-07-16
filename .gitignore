@@ -1,0 +1,121 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code related
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio related
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Environment files
+*.env
+*.env.local
+.env*.local
+.env*.local
+.env*.local
+.env*.local
+
+# Local configuration files
+*.local
+*.config
+
+# IDE specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# MacOS related
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+
+# Windows related
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Node dependencies
+node_modules/
+
+# Python related
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Java related
+*.class
+*.jar
+*.war
+*.ear
+
+# Ruby related
+*.gem
+*.rbc
+.bundle/
+/vendor/bundle/
+
+# C/C++ related
+*.o
+*.a
+*.so
+*.la
+
+# PHP related
+/composer.phar
+/vendor/
+/composer.lock
+
+# Rust related
+/target/
+/Cargo.lock
+
+# Go related
+/bin/
+/pkg/
+/obj/
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
