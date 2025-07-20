@@ -3,6 +3,11 @@ description: "A new Flutter project."
 publish_to: 'none'
 
 version: 1.0.0+1
+#  follows Semantic Versioning [Major_Version.Minor_Version.Patch_Version.Build_Metadata]
+# Major: Breaking changes
+# Minor: New features, backward-compatible
+# Patch: Bug fixes, backward-compatible
+# Build Metadata: Additional build information
 
 environment:
   sdk: ^3.8.1
@@ -10,16 +15,23 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  fluttertoast: ^8.2.1
   cupertino_icons: ^1.0.8
+  intl: ^0.20.2
+  #  flutter_native_splash: ^2.4.6 # USED FOR NATIVE SPLASH SCREEN WHICH LOAD BEFORE FLUTTER APP STATRT & HAS STATIC THINGS THAT CANT BE CHANGED OF HAVE LOGIC
+  fluttertoast: ^8.2.12
+  very_good_analysis: ^9.0.0
+  google_fonts: ^6.2.1
+  flutter_localization: ^0.3.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+  flutter_lints: ^6.0.0
+  very_good_analysis: ^9.0.0
 
 flutter:
   uses-material-design: true
   assets:
     - assets/images/failure.png
     - assets/images/success.png
+    - assets/images/splash_image.png

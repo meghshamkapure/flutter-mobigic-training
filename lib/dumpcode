@@ -1,0 +1,99 @@
+// void main() {
+//   runApp(LandingPage(home: ScoreUpdateModifier()));
+// }
+
+// Native splash screen implementation
+// void main() {
+//   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
+//   FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
+//
+//   Future.delayed(Duration(seconds: 10), () {
+//     FlutterNativeSplash.remove();
+//   });
+//
+//   runApp(MaterialApp(home: MyApp()));
+// }
+//
+// class MyApp extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       home: Scaffold(
+//         body: Center(
+//           child: Text(
+//             "Welcome!",
+//             style: TextStyle(fontSize: 50, color: Colors.deepPurple),
+//           ),
+//         ),
+//       ),
+//     );
+//   }
+// }
+
+
+
+
+
+
+===========================
+
+
+date_operations.dart
+
+// FLUTTER FUNCTIONALITY PROVIDED, NEED MORE CLARIFICATION ON THIS, HOW AND WHEN TO USE IT
+// class DatePickerApp extends StatelessWidget {
+//   const DatePickerApp({super.key});
+//
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       home: Scaffold(
+//         appBar: AppBar(title: const Text('showDatePicker Example')),
+//         body: const Center(child: DatePickerExample()),
+//       ),
+//     );
+//   }
+// }
+//
+// class DatePickerExample extends StatefulWidget {
+//   const DatePickerExample({super.key});
+//
+//   @override
+//   State<DatePickerExample> createState() => _DatePickerExampleState();
+// }
+//
+// class _DatePickerExampleState extends State<DatePickerExample> {
+//   DateTime? selectedDate;
+//
+//   Future<void> _selectDate() async {
+//     final DateTime? pickedDate = await showDatePicker(
+//       context: context,
+//       initialDate: DateTime(2021, 7, 25),
+//       firstDate: DateTime(2021),
+//       lastDate: DateTime(2022),
+//     );
+//
+//     setState(() {
+//       selectedDate = pickedDate;
+//     });
+//   }
+//
+//   @override
+//   Widget build(BuildContext context) {
+//     return Column(
+//       mainAxisSize: MainAxisSize.min,
+//       spacing: 20,
+//       children: <Widget>[
+//         Text(
+//           selectedDate != null
+//               ? '${selectedDate!.day}/${selectedDate!.month}/${selectedDate!.year}'
+//               : 'No date selected',
+//         ),
+//         OutlinedButton(
+//           onPressed: _selectDate,
+//           child: const Text('Select Date'),
+//         ),
+//       ],
+//     );
+//   }
+// }
